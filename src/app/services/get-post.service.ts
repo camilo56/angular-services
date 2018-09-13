@@ -71,6 +71,7 @@ export class GetPostService {
 
   getHttp(): Observable<any>{
     return this.http.get("https://jsonplaceholder.typicode.com/users")
+    console.log("es un test");
   }
 
   setPost(name = "camilo", apellido = "colmenares"): Observable<any>{
